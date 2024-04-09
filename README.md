@@ -23,8 +23,8 @@ The Donut architecture was adopted to address document classification and data e
 This model was proposed in OCR-free Document Understanding Transformer by Geewook Kim, Teakgyu Hong, Moonbin Yim, Jeongyeon Nam, Jinyoung Park, Jinyeong Yim, Wonseok Hwang, Sangdoo Yun, Dongyoon Han, Seunghyun Park. Donut consists of an image Transformer encoder and an autoregressive text Transformer decoder to perform document understanding tasks such as document image classification, form understanding and visual question answering.
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://private-user-images.githubusercontent.com/73080100/271844050-015b1eb4-6679-480a-981d-74945d390b57.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1Njk2NDEsIm5iZiI6MTcxMjU2OTM0MSwicGF0aCI6Ii83MzA4MDEwMC8yNzE4NDQwNTAtMDE1YjFlYjQtNjY3OS00ODBhLTk4MWQtNzQ5NDVkMzkwYjU3LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDA5NDIyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTExNzYxY2Y3YmUxOWE0ZThmODVhYzM1NzhmN2U1YTQyMDM4NWFkNmVlYzEwZjc3NDQ3ZGVmNTE0NTIxMzYzMGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nTEvbfyGzPrqAda72ToZMGF8VEPusXlWaQST5mQxaWU" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+OCR free Document Understanding Transformer: <br/>
+<img src="https://raw.githubusercontent.com/clovaai/donut/master/misc/overview.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 The Donut model will be fine-tuned to address the document classification problem. For the data extraction challenge, inference will be applied directly to a pre-trained Donut model
